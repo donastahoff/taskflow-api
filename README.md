@@ -185,13 +185,6 @@ src/main/java/com/example/demo/
 
 ---
 
-## 👤 Контакты
-
-- **Telegram:** [@ваш_телеграм](https://t.me/donastahoff)
-- **GitHub:** [donastahoff](https://github.com/donastahoff)
-
----
-
 ## 📌 Планы по развитию
 
 - [ ] Добавить пагинацию и сортировку
