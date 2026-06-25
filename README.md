@@ -55,30 +55,30 @@
 
 ### Шаги
 
-1. **Клонируй репозиторий:**
+1. **Клонируйте репозиторий:**
    ```bash
    git clone https://github.com/donastahoff/taskflow-api.git
    cd taskflow-api
    ```
 
-2. **Настрой базу данных PostgreSQL:**
+2. **Настройте базу данных PostgreSQL:**
    - Создай БД `taskflow_db`
    - Или используй Docker:
      ```bash
      docker run --name taskflow-postgres -e POSTGRES_PASSWORD=12345 -e POSTGRES_DB=taskflow_db -p 5432:5432 -d postgres:15
      ```
 
-3. **Настрой `application.yml`:**
+3. **Настройте `application.yml`:**
    - Создай файл `src/main/resources/application.yml`
    - Укажи свои параметры (пример ниже)
 
-4. **Запусти приложение:**
+4. **Запустите приложение:**
    ```bash
    mvn clean install
    mvn spring-boot:run
    ```
 
-5. **Открой Swagger:**  
+5. **Откройте Swagger:**  
    [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
 ---
